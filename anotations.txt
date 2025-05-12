@@ -1,0 +1,9 @@
+[000] - "Create Project"
+
+- It was defined the project settings:
+	screen:
+		viewport_width  = 270
+		viewport_height = 480
+		
+		viewport_override_width  = 480
+		viewport_override_heigth = 854

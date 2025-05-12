@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cr8fe7qcyji1g"
+path="res://.godot/imported/impactWood_medium_002.ogg-7d74b977fee32b60eddc0fb47e43bb69.oggvorbisstr"
+
+[deps]
+
+source_file="res://LeapNight Assets/Sound/impactWood_medium_002.ogg"
+dest_files=["res://.godot/imported/impactWood_medium_002.ogg-7d74b977fee32b60eddc0fb47e43bb69.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

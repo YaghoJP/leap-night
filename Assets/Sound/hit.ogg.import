@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://to54qwl4qghe"
+path="res://.godot/imported/hit.ogg-7e390b0a14c5f86644368af5adaa582a.oggvorbisstr"
+
+[deps]
+
+source_file="res://LeapNight Assets/Sound/hit.ogg"
+dest_files=["res://.godot/imported/hit.ogg-7e390b0a14c5f86644368af5adaa582a.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

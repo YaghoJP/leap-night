@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bm58da3ftpu0r"
-path="res://.godot/imported/Run (32x32).png-62273f191c96e23c934b6821c960ab0a.ctex"
+path="res://.godot/imported/Run (32x32).png-68fdcbe5c9f56eaf1fa25dfee8cf351d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Main Characters/Mask Dude/Run (32x32).png"
-dest_files=["res://.godot/imported/Run (32x32).png-62273f191c96e23c934b6821c960ab0a.ctex"]
+source_file="res://Assets/Sprites/Main Characters/Mask Dude/Run (32x32).png"
+dest_files=["res://.godot/imported/Run (32x32).png-68fdcbe5c9f56eaf1fa25dfee8cf351d.ctex"]
 
 [params]
 

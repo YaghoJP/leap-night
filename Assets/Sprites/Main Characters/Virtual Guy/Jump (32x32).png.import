@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dtafte1ip1i5l"
-path="res://.godot/imported/Jump (32x32).png-360d9c069dc0abfca430e541d847bfce.ctex"
+path="res://.godot/imported/Jump (32x32).png-9a0ebda558e2fd0088f6f61c7d6ab3b8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Main Characters/Virtual Guy/Jump (32x32).png"
-dest_files=["res://.godot/imported/Jump (32x32).png-360d9c069dc0abfca430e541d847bfce.ctex"]
+source_file="res://Assets/Sprites/Main Characters/Virtual Guy/Jump (32x32).png"
+dest_files=["res://.godot/imported/Jump (32x32).png-9a0ebda558e2fd0088f6f61c7d6ab3b8.ctex"]
 
 [params]
 

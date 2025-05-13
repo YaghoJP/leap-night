@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bt41ktfjs1wof"
-path="res://.godot/imported/Appearing (96x96).png-1c420d1bb5e7e330f787d1e8369f8816.ctex"
+path="res://.godot/imported/Appearing (96x96).png-4db25230473e131efdf0a4080d3f4084.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Main Characters/Appearing (96x96).png"
-dest_files=["res://.godot/imported/Appearing (96x96).png-1c420d1bb5e7e330f787d1e8369f8816.ctex"]
+source_file="res://Assets/Sprites/Main Characters/Appearing (96x96).png"
+dest_files=["res://.godot/imported/Appearing (96x96).png-4db25230473e131efdf0a4080d3f4084.ctex"]
 
 [params]
 

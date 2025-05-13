@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://du71vr7dtvu6q"
-path="res://.godot/imported/Hit (36x36).png-9dca1a17825397580fbd471241ffeb08.ctex"
+path="res://.godot/imported/Hit (36x36).png-607934e5a759ed7756c4e3f5ac50f8be.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Enemies/Duck/Hit (36x36).png"
-dest_files=["res://.godot/imported/Hit (36x36).png-9dca1a17825397580fbd471241ffeb08.ctex"]
+source_file="res://Assets/Sprites/Enemies/Duck/Hit (36x36).png"
+dest_files=["res://.godot/imported/Hit (36x36).png-607934e5a759ed7756c4e3f5ac50f8be.ctex"]
 
 [params]
 

@@ -3,12 +3,12 @@
 importer="font_data_dynamic"
 type="FontFile"
 uid="uid://4271mu8vp3e7"
-path="res://.godot/imported/Pixel Game.otf-f0e914967d58f6eec7c9c366337ed0c4.fontdata"
+path="res://.godot/imported/Pixel Game.otf-ae6b75f45f086eb257d9c1a751039968.fontdata"
 
 [deps]
 
-source_file="res://LeapNight Assets/Fonts/Pixel Game.otf"
-dest_files=["res://.godot/imported/Pixel Game.otf-f0e914967d58f6eec7c9c366337ed0c4.fontdata"]
+source_file="res://Assets/Fonts/Pixel Game.otf"
+dest_files=["res://.godot/imported/Pixel Game.otf-ae6b75f45f086eb257d9c1a751039968.fontdata"]
 
 [params]
 

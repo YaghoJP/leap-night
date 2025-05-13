@@ -3,12 +3,12 @@
 importer="oggvorbisstr"
 type="AudioStreamOggVorbis"
 uid="uid://cw0jdwd6iab2f"
-path="res://.godot/imported/fruit.ogg-82a2dfb5eebeed407902197ce2ffabec.oggvorbisstr"
+path="res://.godot/imported/fruit.ogg-21d731bc367e76cf72ec43def2fb03ee.oggvorbisstr"
 
 [deps]
 
-source_file="res://LeapNight Assets/Sound/fruit.ogg"
-dest_files=["res://.godot/imported/fruit.ogg-82a2dfb5eebeed407902197ce2ffabec.oggvorbisstr"]
+source_file="res://Assets/Sound/fruit.ogg"
+dest_files=["res://.godot/imported/fruit.ogg-21d731bc367e76cf72ec43def2fb03ee.oggvorbisstr"]
 
 [params]
 

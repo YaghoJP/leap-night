@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ewnqei2pcv4d"
-path="res://.godot/imported/Flying (46x30).png-0ea4da2235f7d423842722ff629238ca.ctex"
+path="res://.godot/imported/Flying (46x30).png-71a01e87cbaafcf02b7b9557f85218ee.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Enemies/Bat/Flying (46x30).png"
-dest_files=["res://.godot/imported/Flying (46x30).png-0ea4da2235f7d423842722ff629238ca.ctex"]
+source_file="res://Assets/Sprites/Enemies/Bat/Flying (46x30).png"
+dest_files=["res://.godot/imported/Flying (46x30).png-71a01e87cbaafcf02b7b9557f85218ee.ctex"]
 
 [params]
 

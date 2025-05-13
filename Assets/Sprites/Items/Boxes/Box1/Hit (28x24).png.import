@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://05otyrc4xnu5"
-path="res://.godot/imported/Hit (28x24).png-02bbb2c50a69b206150064764f84649f.ctex"
+path="res://.godot/imported/Hit (28x24).png-05dd9fdadb060db51a86ee1bf988f1d6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Items/Boxes/Box1/Hit (28x24).png"
-dest_files=["res://.godot/imported/Hit (28x24).png-02bbb2c50a69b206150064764f84649f.ctex"]
+source_file="res://Assets/Sprites/Items/Boxes/Box1/Hit (28x24).png"
+dest_files=["res://.godot/imported/Hit (28x24).png-05dd9fdadb060db51a86ee1bf988f1d6.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://0jlblaunkqqh"
-path="res://.godot/imported/Fall (32x32).png-a9feff5694d7d0d40023ec0e50840f19.ctex"
+path="res://.godot/imported/Fall (32x32).png-9fee6cc8097925d86e97e554e61e986e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Main Characters/Pink Man/Fall (32x32).png"
-dest_files=["res://.godot/imported/Fall (32x32).png-a9feff5694d7d0d40023ec0e50840f19.ctex"]
+source_file="res://Assets/Sprites/Main Characters/Pink Man/Fall (32x32).png"
+dest_files=["res://.godot/imported/Fall (32x32).png-9fee6cc8097925d86e97e554e61e986e.ctex"]
 
 [params]
 

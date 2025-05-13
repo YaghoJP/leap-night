@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dh6ylsb4brt4s"
-path="res://.godot/imported/On (32x10).png-62fa3832c1daeb89a66d68b2b762f0d5.ctex"
+path="res://.godot/imported/On (32x10).png-625d65795d7654338ef430053dbefe43.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Traps/Falling Platforms/On (32x10).png"
-dest_files=["res://.godot/imported/On (32x10).png-62fa3832c1daeb89a66d68b2b762f0d5.ctex"]
+source_file="res://Assets/Sprites/Traps/Falling Platforms/On (32x10).png"
+dest_files=["res://.godot/imported/On (32x10).png-625d65795d7654338ef430053dbefe43.ctex"]
 
 [params]
 

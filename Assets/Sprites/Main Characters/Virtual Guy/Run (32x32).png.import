@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bo5mtmcwbh0c8"
-path="res://.godot/imported/Run (32x32).png-f17a58c82ed34faf9843b5c63e7491b3.ctex"
+path="res://.godot/imported/Run (32x32).png-8537b80ca446998fb6ca918070ce6fbc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Main Characters/Virtual Guy/Run (32x32).png"
-dest_files=["res://.godot/imported/Run (32x32).png-f17a58c82ed34faf9843b5c63e7491b3.ctex"]
+source_file="res://Assets/Sprites/Main Characters/Virtual Guy/Run (32x32).png"
+dest_files=["res://.godot/imported/Run (32x32).png-8537b80ca446998fb6ca918070ce6fbc.ctex"]
 
 [params]
 

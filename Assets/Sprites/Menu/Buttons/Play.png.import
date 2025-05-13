@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bwbro50evmoen"
-path="res://.godot/imported/Play.png-933e3c25276f228a265d969130921635.ctex"
+path="res://.godot/imported/Play.png-07d5f906f0c794e4cfb9bd7684494354.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Menu/Buttons/Play.png"
-dest_files=["res://.godot/imported/Play.png-933e3c25276f228a265d969130921635.ctex"]
+source_file="res://Assets/Sprites/Menu/Buttons/Play.png"
+dest_files=["res://.godot/imported/Play.png-07d5f906f0c794e4cfb9bd7684494354.ctex"]
 
 [params]
 

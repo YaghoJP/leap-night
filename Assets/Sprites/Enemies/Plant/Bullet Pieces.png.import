@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://7xd7igf8b0h1"
-path="res://.godot/imported/Bullet Pieces.png-1b69cbe6a2a3a0fc532e7699b1dcd5fe.ctex"
+path="res://.godot/imported/Bullet Pieces.png-c4f25b9c79ee789443e3ddf6f3678858.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Enemies/Plant/Bullet Pieces.png"
-dest_files=["res://.godot/imported/Bullet Pieces.png-1b69cbe6a2a3a0fc532e7699b1dcd5fe.ctex"]
+source_file="res://Assets/Sprites/Enemies/Plant/Bullet Pieces.png"
+dest_files=["res://.godot/imported/Bullet Pieces.png-c4f25b9c79ee789443e3ddf6f3678858.ctex"]
 
 [params]
 

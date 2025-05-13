@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cjvx4nl1fd4s6"
-path="res://.godot/imported/Idle 1 (44x26).png-54c15b51d89462bb35c570d823ab36a7.ctex"
+path="res://.godot/imported/Idle 1 (44x26).png-5191a0c4fb5037213ea760fcaf088cf5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Enemies/Turtle/Idle 1 (44x26).png"
-dest_files=["res://.godot/imported/Idle 1 (44x26).png-54c15b51d89462bb35c570d823ab36a7.ctex"]
+source_file="res://Assets/Sprites/Enemies/Turtle/Idle 1 (44x26).png"
+dest_files=["res://.godot/imported/Idle 1 (44x26).png-5191a0c4fb5037213ea760fcaf088cf5.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://nxwmm0s3fgsa"
-path="res://.godot/imported/Hit (64x32).png-ff3ea3e2f61841e27bef59b3a7ec3846.ctex"
+path="res://.godot/imported/Hit (64x32).png-b4042bc816696deb4ce8e6d5918f0d55.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Enemies/Trunk/Hit (64x32).png"
-dest_files=["res://.godot/imported/Hit (64x32).png-ff3ea3e2f61841e27bef59b3a7ec3846.ctex"]
+source_file="res://Assets/Sprites/Enemies/Trunk/Hit (64x32).png"
+dest_files=["res://.godot/imported/Hit (64x32).png-b4042bc816696deb4ce8e6d5918f0d55.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://boeqcqartbgvm"
-path="res://.godot/imported/Run (84x38).png-909875d285e481a22b9431ab551c2717.ctex"
+path="res://.godot/imported/Run (84x38).png-ee284e9d97a4d19b54b77fe863eb76f0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Enemies/Chameleon/Run (84x38).png"
-dest_files=["res://.godot/imported/Run (84x38).png-909875d285e481a22b9431ab551c2717.ctex"]
+source_file="res://Assets/Sprites/Enemies/Chameleon/Run (84x38).png"
+dest_files=["res://.godot/imported/Run (84x38).png-ee284e9d97a4d19b54b77fe863eb76f0.ctex"]
 
 [params]
 

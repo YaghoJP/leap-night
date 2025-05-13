@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://codeqjkuhkx6v"
-path="res://.godot/imported/Double Jump (32x32).png-48ac742f51fdc998366f311144a1d50e.ctex"
+path="res://.godot/imported/Double Jump (32x32).png-bb0a3b66e884aab4fde2ab55b1baef47.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Main Characters/Ninja Frog/Double Jump (32x32).png"
-dest_files=["res://.godot/imported/Double Jump (32x32).png-48ac742f51fdc998366f311144a1d50e.ctex"]
+source_file="res://Assets/Sprites/Main Characters/Ninja Frog/Double Jump (32x32).png"
+dest_files=["res://.godot/imported/Double Jump (32x32).png-bb0a3b66e884aab4fde2ab55b1baef47.ctex"]
 
 [params]
 

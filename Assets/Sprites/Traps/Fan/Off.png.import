@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b0u324w33uhdv"
-path="res://.godot/imported/Off.png-9a71b38bf3e4b19209c589779d1bc6e3.ctex"
+path="res://.godot/imported/Off.png-a18c66cf5d4c60d07df9e4ffbb771a9a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Traps/Fan/Off.png"
-dest_files=["res://.godot/imported/Off.png-9a71b38bf3e4b19209c589779d1bc6e3.ctex"]
+source_file="res://Assets/Sprites/Traps/Fan/Off.png"
+dest_files=["res://.godot/imported/Off.png-a18c66cf5d4c60d07df9e4ffbb771a9a.ctex"]
 
 [params]
 

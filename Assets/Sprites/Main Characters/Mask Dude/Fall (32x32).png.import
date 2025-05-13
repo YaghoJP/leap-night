@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cf5aaxsdwoyla"
-path="res://.godot/imported/Fall (32x32).png-4cd3aa3d8b9d589f84de9ae16854a176.ctex"
+path="res://.godot/imported/Fall (32x32).png-266af34d8eb1db41aad1cba87e1a6787.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Main Characters/Mask Dude/Fall (32x32).png"
-dest_files=["res://.godot/imported/Fall (32x32).png-4cd3aa3d8b9d589f84de9ae16854a176.ctex"]
+source_file="res://Assets/Sprites/Main Characters/Mask Dude/Fall (32x32).png"
+dest_files=["res://.godot/imported/Fall (32x32).png-266af34d8eb1db41aad1cba87e1a6787.ctex"]
 
 [params]
 

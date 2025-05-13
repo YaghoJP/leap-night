@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dd3v1jcrtiy6k"
-path="res://.godot/imported/Kiwi.png-d720c76efbea661bab6eb5901ff91f2d.ctex"
+path="res://.godot/imported/Kiwi.png-0c39a5dbacc2a3e11646b16e65152f50.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Items/Fruits/Kiwi.png"
-dest_files=["res://.godot/imported/Kiwi.png-d720c76efbea661bab6eb5901ff91f2d.ctex"]
+source_file="res://Assets/Sprites/Items/Fruits/Kiwi.png"
+dest_files=["res://.godot/imported/Kiwi.png-0c39a5dbacc2a3e11646b16e65152f50.ctex"]
 
 [params]
 

@@ -1,5 +1,6 @@
-[000] - "Create Project"
+SO -> Linux Ubunto
 
+[000] - "Create Project"
 - It was defined the project settings:
 	screen:
 		viewport_width  = 270
@@ -7,3 +8,7 @@
 		
 		viewport_override_width  = 480
 		viewport_override_heigth = 854
+
+[001] - "Create Player"
+- The player and his animations were created,
+  but his code has not yet been created.

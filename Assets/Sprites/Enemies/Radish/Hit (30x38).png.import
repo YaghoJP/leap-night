@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bec0cwfx7xemr"
-path="res://.godot/imported/Hit (30x38).png-4fe36166e8c95c3190d0931dd3858a7b.ctex"
+path="res://.godot/imported/Hit (30x38).png-3767158e7fcb87c9a6177b62d0824393.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Enemies/Radish/Hit (30x38).png"
-dest_files=["res://.godot/imported/Hit (30x38).png-4fe36166e8c95c3190d0931dd3858a7b.ctex"]
+source_file="res://Assets/Sprites/Enemies/Radish/Hit (30x38).png"
+dest_files=["res://.godot/imported/Hit (30x38).png-3767158e7fcb87c9a6177b62d0824393.ctex"]
 
 [params]
 

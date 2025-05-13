@@ -3,12 +3,12 @@
 importer="mp3"
 type="AudioStreamMP3"
 uid="uid://gw1h6skpmido"
-path="res://.godot/imported/jumping sfx.mp3-dfa321f3c44bede622edc14a143a71d0.mp3str"
+path="res://.godot/imported/jumping sfx.mp3-17f67d6829d9c1929187339fba25857b.mp3str"
 
 [deps]
 
-source_file="res://LeapNight Assets/Sound/jumping sfx.mp3"
-dest_files=["res://.godot/imported/jumping sfx.mp3-dfa321f3c44bede622edc14a143a71d0.mp3str"]
+source_file="res://Assets/Sound/jumping sfx.mp3"
+dest_files=["res://.godot/imported/jumping sfx.mp3-17f67d6829d9c1929187339fba25857b.mp3str"]
 
 [params]
 

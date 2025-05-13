@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d0t5cb2sqvh8n"
-path="res://.godot/imported/Collected.png-11b75f8a33151bf65b3dcfe7e10af8bb.ctex"
+path="res://.godot/imported/Collected.png-64c4c3b4835bcf72fcd3e00e0c36503d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Items/Fruits/Collected.png"
-dest_files=["res://.godot/imported/Collected.png-11b75f8a33151bf65b3dcfe7e10af8bb.ctex"]
+source_file="res://Assets/Sprites/Items/Fruits/Collected.png"
+dest_files=["res://.godot/imported/Collected.png-64c4c3b4835bcf72fcd3e00e0c36503d.ctex"]
 
 [params]
 

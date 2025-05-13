@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c1h3e4fdajtew"
-path="res://.godot/imported/Ice Particle.png-9ec766522676de8d2c07df79a5aec3c0.ctex"
+path="res://.godot/imported/Ice Particle.png-58892388a3aa0c8db4c1d6d66a3e54d8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Traps/Sand Mud Ice/Ice Particle.png"
-dest_files=["res://.godot/imported/Ice Particle.png-9ec766522676de8d2c07df79a5aec3c0.ctex"]
+source_file="res://Assets/Sprites/Traps/Sand Mud Ice/Ice Particle.png"
+dest_files=["res://.godot/imported/Ice Particle.png-58892388a3aa0c8db4c1d6d66a3e54d8.ctex"]
 
 [params]
 

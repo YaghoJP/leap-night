@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bilkf16q24hbp"
-path="res://.godot/imported/Jump.png-e0d420514f02aef9bc342c0f9bcbc03d.ctex"
+path="res://.godot/imported/Jump.png-fafe6aedca65553bb5005380a806a55f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Enemies/Bunny/Jump.png"
-dest_files=["res://.godot/imported/Jump.png-e0d420514f02aef9bc342c0f9bcbc03d.ctex"]
+source_file="res://Assets/Sprites/Enemies/Bunny/Jump.png"
+dest_files=["res://.godot/imported/Jump.png-fafe6aedca65553bb5005380a806a55f.ctex"]
 
 [params]
 

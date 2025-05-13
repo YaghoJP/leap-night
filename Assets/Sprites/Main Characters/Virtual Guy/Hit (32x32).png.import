@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://117jua4lf32b"
-path="res://.godot/imported/Hit (32x32).png-0a2ddfdec475e05637fa1810e60bf739.ctex"
+path="res://.godot/imported/Hit (32x32).png-2c94985aba54d18f7399d2ab8b21afd0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Main Characters/Virtual Guy/Hit (32x32).png"
-dest_files=["res://.godot/imported/Hit (32x32).png-0a2ddfdec475e05637fa1810e60bf739.ctex"]
+source_file="res://Assets/Sprites/Main Characters/Virtual Guy/Hit (32x32).png"
+dest_files=["res://.godot/imported/Hit (32x32).png-2c94985aba54d18f7399d2ab8b21afd0.ctex"]
 
 [params]
 

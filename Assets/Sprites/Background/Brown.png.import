@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dxfstgy3ih15h"
-path="res://.godot/imported/Brown.png-13a2b80fca9c1e809c10047a444a5c61.ctex"
+path="res://.godot/imported/Brown.png-f44fc16601557e0362ba5de4c9f7e00e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Background/Brown.png"
-dest_files=["res://.godot/imported/Brown.png-13a2b80fca9c1e809c10047a444a5c61.ctex"]
+source_file="res://Assets/Sprites/Background/Brown.png"
+dest_files=["res://.godot/imported/Brown.png-f44fc16601557e0362ba5de4c9f7e00e.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://mh1y1xfimpbt"
-path="res://.godot/imported/Idle (52x34).png-3b4030570b339fb57fd0273572e4b9fd.ctex"
+path="res://.godot/imported/Idle (52x34).png-9bbe1bf755e5594210df76e6c2cf9966.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Enemies/Rino/Idle (52x34).png"
-dest_files=["res://.godot/imported/Idle (52x34).png-3b4030570b339fb57fd0273572e4b9fd.ctex"]
+source_file="res://Assets/Sprites/Enemies/Rino/Idle (52x34).png"
+dest_files=["res://.godot/imported/Idle (52x34).png-9bbe1bf755e5594210df76e6c2cf9966.ctex"]
 
 [params]
 

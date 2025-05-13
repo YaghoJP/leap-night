@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cujijlu8uscg1"
-path="res://.godot/imported/HitTop (22x22).png-0b2f9ef9b3d33fd7d8d517cbe6bd7c51.ctex"
+path="res://.godot/imported/HitTop (22x22).png-4b98e1177ea615bff1724734a1fa37d7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Traps/Blocks/HitTop (22x22).png"
-dest_files=["res://.godot/imported/HitTop (22x22).png-0b2f9ef9b3d33fd7d8d517cbe6bd7c51.ctex"]
+source_file="res://Assets/Sprites/Traps/Blocks/HitTop (22x22).png"
+dest_files=["res://.godot/imported/HitTop (22x22).png-4b98e1177ea615bff1724734a1fa37d7.ctex"]
 
 [params]
 

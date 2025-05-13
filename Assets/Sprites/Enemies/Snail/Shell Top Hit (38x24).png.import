@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://djldeg05i0em3"
-path="res://.godot/imported/Shell Top Hit (38x24).png-879e90656b6f09fc1a93f0aa1b6409ed.ctex"
+path="res://.godot/imported/Shell Top Hit (38x24).png-0960961d211a7c40b687ab6c0b1df42c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Enemies/Snail/Shell Top Hit (38x24).png"
-dest_files=["res://.godot/imported/Shell Top Hit (38x24).png-879e90656b6f09fc1a93f0aa1b6409ed.ctex"]
+source_file="res://Assets/Sprites/Enemies/Snail/Shell Top Hit (38x24).png"
+dest_files=["res://.godot/imported/Shell Top Hit (38x24).png-0960961d211a7c40b687ab6c0b1df42c.ctex"]
 
 [params]
 

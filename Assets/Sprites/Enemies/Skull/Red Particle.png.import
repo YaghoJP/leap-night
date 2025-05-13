@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://vt7df1v5e5s1"
-path="res://.godot/imported/Red Particle.png-b23e4478a31fc00a7f9a0270c4bd9957.ctex"
+path="res://.godot/imported/Red Particle.png-1cf094eca9c9eb248c58b9a98abe0a1a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Enemies/Skull/Red Particle.png"
-dest_files=["res://.godot/imported/Red Particle.png-b23e4478a31fc00a7f9a0270c4bd9957.ctex"]
+source_file="res://Assets/Sprites/Enemies/Skull/Red Particle.png"
+dest_files=["res://.godot/imported/Red Particle.png-1cf094eca9c9eb248c58b9a98abe0a1a.ctex"]
 
 [params]
 

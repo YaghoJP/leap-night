@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b28x5tilc8bii"
-path="res://.godot/imported/Top Hit (54x52).png-edb69dc69cadbbc3f4c0fc9d8730b0a5.ctex"
+path="res://.godot/imported/Top Hit (54x52).png-2b7e7db506a28ce5a7c2bf2b52bf6ede.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Traps/Spike Head/Top Hit (54x52).png"
-dest_files=["res://.godot/imported/Top Hit (54x52).png-edb69dc69cadbbc3f4c0fc9d8730b0a5.ctex"]
+source_file="res://Assets/Sprites/Traps/Spike Head/Top Hit (54x52).png"
+dest_files=["res://.godot/imported/Top Hit (54x52).png-2b7e7db506a28ce5a7c2bf2b52bf6ede.ctex"]
 
 [params]
 

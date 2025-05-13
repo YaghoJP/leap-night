@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bcnyoijlqavkr"
-path="res://.godot/imported/Pink.png-5b3819a85933fda0783d41e5da98289a.ctex"
+path="res://.godot/imported/Pink.png-11caea4bd55c421b833fdc867e6b3b59.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Background/Pink.png"
-dest_files=["res://.godot/imported/Pink.png-5b3819a85933fda0783d41e5da98289a.ctex"]
+source_file="res://Assets/Sprites/Background/Pink.png"
+dest_files=["res://.godot/imported/Pink.png-11caea4bd55c421b833fdc867e6b3b59.ctex"]
 
 [params]
 

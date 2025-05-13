@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://yar1rslohbdy"
-path="res://.godot/imported/Idle 2 (30x38).png-08dbf5944e59ef0be550970ca7350b11.ctex"
+path="res://.godot/imported/Idle 2 (30x38).png-fabad5f228732a0173b0e579cd4b712a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Enemies/Radish/Idle 2 (30x38).png"
-dest_files=["res://.godot/imported/Idle 2 (30x38).png-08dbf5944e59ef0be550970ca7350b11.ctex"]
+source_file="res://Assets/Sprites/Enemies/Radish/Idle 2 (30x38).png"
+dest_files=["res://.godot/imported/Idle 2 (30x38).png-fabad5f228732a0173b0e579cd4b712a.ctex"]
 
 [params]
 

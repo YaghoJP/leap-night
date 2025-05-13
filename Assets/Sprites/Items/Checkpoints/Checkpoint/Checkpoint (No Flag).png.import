@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bf0fscsvdy21m"
-path="res://.godot/imported/Checkpoint (No Flag).png-6c15b564717987d19de0594825325be6.ctex"
+path="res://.godot/imported/Checkpoint (No Flag).png-1b0f80b641c17f89004862ea0868de44.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Items/Checkpoints/Checkpoint/Checkpoint (No Flag).png"
-dest_files=["res://.godot/imported/Checkpoint (No Flag).png-6c15b564717987d19de0594825325be6.ctex"]
+source_file="res://Assets/Sprites/Items/Checkpoints/Checkpoint/Checkpoint (No Flag).png"
+dest_files=["res://.godot/imported/Checkpoint (No Flag).png-1b0f80b641c17f89004862ea0868de44.ctex"]
 
 [params]
 

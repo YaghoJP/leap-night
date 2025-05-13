@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b0vlo2jp1u3cy"
-path="res://.godot/imported/Right Hit (42x42).png-073c0b02c8c3ac7ffd9cf8474638259d.ctex"
+path="res://.godot/imported/Right Hit (42x42).png-86bb7f958164f4dde0a8fef823137713.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Traps/Rock Head/Right Hit (42x42).png"
-dest_files=["res://.godot/imported/Right Hit (42x42).png-073c0b02c8c3ac7ffd9cf8474638259d.ctex"]
+source_file="res://Assets/Sprites/Traps/Rock Head/Right Hit (42x42).png"
+dest_files=["res://.godot/imported/Right Hit (42x42).png-86bb7f958164f4dde0a8fef823137713.ctex"]
 
 [params]
 

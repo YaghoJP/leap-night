@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bo8iythsbrhbl"
-path="res://.godot/imported/Previous.png-0354f40d91f657dcbcd2a563382fc518.ctex"
+path="res://.godot/imported/Previous.png-b8e98af0a25b8b1ac216844e4ebddc87.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Menu/Buttons/Previous.png"
-dest_files=["res://.godot/imported/Previous.png-0354f40d91f657dcbcd2a563382fc518.ctex"]
+source_file="res://Assets/Sprites/Menu/Buttons/Previous.png"
+dest_files=["res://.godot/imported/Previous.png-b8e98af0a25b8b1ac216844e4ebddc87.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cpngym5dbbjke"
-path="res://.godot/imported/Run (32x32).png-24b8a135618f74d75ea64e3e2d40fd1e.ctex"
+path="res://.godot/imported/Run (32x32).png-1e5bb491ccdd90c0fd9d0bb56bf7fbdf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Main Characters/Pink Man/Run (32x32).png"
-dest_files=["res://.godot/imported/Run (32x32).png-24b8a135618f74d75ea64e3e2d40fd1e.ctex"]
+source_file="res://Assets/Sprites/Main Characters/Pink Man/Run (32x32).png"
+dest_files=["res://.godot/imported/Run (32x32).png-1e5bb491ccdd90c0fd9d0bb56bf7fbdf.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b7glr5atmjo7u"
-path="res://.godot/imported/Idle.png-a02c163558fc58a46ce24e55e16a2774.ctex"
+path="res://.godot/imported/Idle.png-bb03bbed3b4dae31ec839c838c0858f9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Traps/Blocks/Idle.png"
-dest_files=["res://.godot/imported/Idle.png-a02c163558fc58a46ce24e55e16a2774.ctex"]
+source_file="res://Assets/Sprites/Traps/Blocks/Idle.png"
+dest_files=["res://.godot/imported/Idle.png-bb03bbed3b4dae31ec839c838c0858f9.ctex"]
 
 [params]
 

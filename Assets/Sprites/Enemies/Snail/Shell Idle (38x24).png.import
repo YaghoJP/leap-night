@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bwu8vknxbna2i"
-path="res://.godot/imported/Shell Idle (38x24).png-87c1d8707541019f6080b06d28ef69d8.ctex"
+path="res://.godot/imported/Shell Idle (38x24).png-89cdfe1201cbe94f30dfd96c80264205.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Enemies/Snail/Shell Idle (38x24).png"
-dest_files=["res://.godot/imported/Shell Idle (38x24).png-87c1d8707541019f6080b06d28ef69d8.ctex"]
+source_file="res://Assets/Sprites/Enemies/Snail/Shell Idle (38x24).png"
+dest_files=["res://.godot/imported/Shell Idle (38x24).png-89cdfe1201cbe94f30dfd96c80264205.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://2u0wajbm7c66"
-path="res://.godot/imported/Purple.png-9c6dce6a6e52a58e7025e298fb3368e1.ctex"
+path="res://.godot/imported/Purple.png-8d78af3fd490eea4c0e307f58beced00.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Background/Purple.png"
-dest_files=["res://.godot/imported/Purple.png-9c6dce6a6e52a58e7025e298fb3368e1.ctex"]
+source_file="res://Assets/Sprites/Background/Purple.png"
+dest_files=["res://.godot/imported/Purple.png-8d78af3fd490eea4c0e307f58beced00.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://h5wsifajmsnp"
-path="res://.godot/imported/Brown Off.png-aa9fe2512e306a3ce5b418417bf9a6e2.ctex"
+path="res://.godot/imported/Brown Off.png-add6c893b28ecaea1d2da06d9fc5ce95.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Traps/Platforms/Brown Off.png"
-dest_files=["res://.godot/imported/Brown Off.png-aa9fe2512e306a3ce5b418417bf9a6e2.ctex"]
+source_file="res://Assets/Sprites/Traps/Platforms/Brown Off.png"
+dest_files=["res://.godot/imported/Brown Off.png-add6c893b28ecaea1d2da06d9fc5ce95.ctex"]
 
 [params]
 

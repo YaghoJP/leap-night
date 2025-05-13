@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dthdj88fwlpx5"
-path="res://.godot/imported/Break.png-307d80d4cf7edce6c66df2aeaac10fa6.ctex"
+path="res://.godot/imported/Break.png-37fdbabddd0295763a656c781f2cd881.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Items/Boxes/Box1/Break.png"
-dest_files=["res://.godot/imported/Break.png-307d80d4cf7edce6c66df2aeaac10fa6.ctex"]
+source_file="res://Assets/Sprites/Items/Boxes/Box1/Break.png"
+dest_files=["res://.godot/imported/Break.png-37fdbabddd0295763a656c781f2cd881.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://beuh5qp3ib6pf"
-path="res://.godot/imported/Jump (32x32).png-7b72c43bc57c466261f71d4caea1837a.ctex"
+path="res://.godot/imported/Jump (32x32).png-acd83440593b93821fcbd179790130ce.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Main Characters/Mask Dude/Jump (32x32).png"
-dest_files=["res://.godot/imported/Jump (32x32).png-7b72c43bc57c466261f71d4caea1837a.ctex"]
+source_file="res://Assets/Sprites/Main Characters/Mask Dude/Jump (32x32).png"
+dest_files=["res://.godot/imported/Jump (32x32).png-acd83440593b93821fcbd179790130ce.ctex"]
 
 [params]
 

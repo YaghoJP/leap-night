@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dl21lopdi8wct"
-path="res://.godot/imported/03.png-5abaffc8b8946f295ece2bca8675956c.ctex"
+path="res://.godot/imported/03.png-4ef697d1ca95de73dbede6fa7b8b40a8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Menu/Levels/03.png"
-dest_files=["res://.godot/imported/03.png-5abaffc8b8946f295ece2bca8675956c.ctex"]
+source_file="res://Assets/Sprites/Menu/Levels/03.png"
+dest_files=["res://.godot/imported/03.png-4ef697d1ca95de73dbede6fa7b8b40a8.ctex"]
 
 [params]
 

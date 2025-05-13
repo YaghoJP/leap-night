@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c2d05p4sc4ika"
-path="res://.godot/imported/Walk (38x24).png-834825ab9abd58382fd554c84f4155e3.ctex"
+path="res://.godot/imported/Walk (38x24).png-edbbe8abbcbcdee45148cd8aee39ad57.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Enemies/Snail/Walk (38x24).png"
-dest_files=["res://.godot/imported/Walk (38x24).png-834825ab9abd58382fd554c84f4155e3.ctex"]
+source_file="res://Assets/Sprites/Enemies/Snail/Walk (38x24).png"
+dest_files=["res://.godot/imported/Walk (38x24).png-edbbe8abbcbcdee45148cd8aee39ad57.ctex"]
 
 [params]
 

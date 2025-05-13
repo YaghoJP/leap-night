@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cuivmvt2d6rh7"
-path="res://.godot/imported/Desappearing (96x96).png-fa22517136a206d14a701cc29bf2432a.ctex"
+path="res://.godot/imported/Desappearing (96x96).png-ad15cfebb69452b3ab1f152912520030.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Main Characters/Desappearing (96x96).png"
-dest_files=["res://.godot/imported/Desappearing (96x96).png-fa22517136a206d14a701cc29bf2432a.ctex"]
+source_file="res://Assets/Sprites/Main Characters/Desappearing (96x96).png"
+dest_files=["res://.godot/imported/Desappearing (96x96).png-ad15cfebb69452b3ab1f152912520030.ctex"]
 
 [params]
 

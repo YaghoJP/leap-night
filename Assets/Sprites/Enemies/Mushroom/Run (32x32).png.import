@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://neaf3yt6m4wy"
-path="res://.godot/imported/Run (32x32).png-201b226ffad14e1a353af57c9a4385a0.ctex"
+path="res://.godot/imported/Run (32x32).png-5f453ba796761b4e902ffc1017586426.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Enemies/Mushroom/Run (32x32).png"
-dest_files=["res://.godot/imported/Run (32x32).png-201b226ffad14e1a353af57c9a4385a0.ctex"]
+source_file="res://Assets/Sprites/Enemies/Mushroom/Run (32x32).png"
+dest_files=["res://.godot/imported/Run (32x32).png-5f453ba796761b4e902ffc1017586426.ctex"]
 
 [params]
 

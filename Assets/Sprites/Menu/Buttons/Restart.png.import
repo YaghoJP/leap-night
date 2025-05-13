@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c7fi6vf23aula"
-path="res://.godot/imported/Restart.png-debb5de372e8a0752740eb606cab4a10.ctex"
+path="res://.godot/imported/Restart.png-cc8ac505e2bfab3d0edaf1697234230f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Menu/Buttons/Restart.png"
-dest_files=["res://.godot/imported/Restart.png-debb5de372e8a0752740eb606cab4a10.ctex"]
+source_file="res://Assets/Sprites/Menu/Buttons/Restart.png"
+dest_files=["res://.godot/imported/Restart.png-cc8ac505e2bfab3d0edaf1697234230f.ctex"]
 
 [params]
 

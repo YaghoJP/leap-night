@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dk6dy7towxkdi"
-path="res://.godot/imported/Idle.png-8d26a280b220c72f1cabfee7bc34c492.ctex"
+path="res://.godot/imported/Idle.png-092b2877c05d13f893cabb8e8a5c57ef.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Traps/Trampoline/Idle.png"
-dest_files=["res://.godot/imported/Idle.png-8d26a280b220c72f1cabfee7bc34c492.ctex"]
+source_file="res://Assets/Sprites/Traps/Trampoline/Idle.png"
+dest_files=["res://.godot/imported/Idle.png-092b2877c05d13f893cabb8e8a5c57ef.ctex"]
 
 [params]
 

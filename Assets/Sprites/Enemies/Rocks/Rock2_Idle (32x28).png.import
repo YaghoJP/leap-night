@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dt1086qv83o4j"
-path="res://.godot/imported/Rock2_Idle (32x28).png-9c8bc4d8f41a1d7ca032aa64663e9e72.ctex"
+path="res://.godot/imported/Rock2_Idle (32x28).png-499e4f27cb7354ff0d9d0ca9c54a0e6b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Enemies/Rocks/Rock2_Idle (32x28).png"
-dest_files=["res://.godot/imported/Rock2_Idle (32x28).png-9c8bc4d8f41a1d7ca032aa64663e9e72.ctex"]
+source_file="res://Assets/Sprites/Enemies/Rocks/Rock2_Idle (32x28).png"
+dest_files=["res://.godot/imported/Rock2_Idle (32x28).png-499e4f27cb7354ff0d9d0ca9c54a0e6b.ctex"]
 
 [params]
 

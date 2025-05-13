@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dpk4ed4s7pbvf"
-path="res://.godot/imported/Attack (64x32).png-a5e54c70b911357abab323e4c19f8192.ctex"
+path="res://.godot/imported/Attack (64x32).png-e3ee4b3434087030b56a0a25a07a358c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Enemies/Trunk/Attack (64x32).png"
-dest_files=["res://.godot/imported/Attack (64x32).png-a5e54c70b911357abab323e4c19f8192.ctex"]
+source_file="res://Assets/Sprites/Enemies/Trunk/Attack (64x32).png"
+dest_files=["res://.godot/imported/Attack (64x32).png-e3ee4b3434087030b56a0a25a07a358c.ctex"]
 
 [params]
 

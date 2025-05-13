@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cc60cq6kkwk70"
-path="res://.godot/imported/Start (Moving) (64x64).png-f84493342d6254f1288986d385cf9fcf.ctex"
+path="res://.godot/imported/Start (Moving) (64x64).png-d1ea642b954d7805ff53be5cca43d50d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Items/Checkpoints/Start/Start (Moving) (64x64).png"
-dest_files=["res://.godot/imported/Start (Moving) (64x64).png-f84493342d6254f1288986d385cf9fcf.ctex"]
+source_file="res://Assets/Sprites/Items/Checkpoints/Start/Start (Moving) (64x64).png"
+dest_files=["res://.godot/imported/Start (Moving) (64x64).png-d1ea642b954d7805ff53be5cca43d50d.ctex"]
 
 [params]
 

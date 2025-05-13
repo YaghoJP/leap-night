@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://qtr8ltlb22m3"
-path="res://.godot/imported/Jump Anticipation (36x36).png-a5283f4d7fc2a605910618eb3024332b.ctex"
+path="res://.godot/imported/Jump Anticipation (36x36).png-62626d9838167ab048d986dfb8160af3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Enemies/Duck/Jump Anticipation (36x36).png"
-dest_files=["res://.godot/imported/Jump Anticipation (36x36).png-a5283f4d7fc2a605910618eb3024332b.ctex"]
+source_file="res://Assets/Sprites/Enemies/Duck/Jump Anticipation (36x36).png"
+dest_files=["res://.godot/imported/Jump Anticipation (36x36).png-62626d9838167ab048d986dfb8160af3.ctex"]
 
 [params]
 

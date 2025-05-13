@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cdddgnvfb6luy"
-path="res://.godot/imported/Blue.png-b42c477dd46d892958ad932a16f63ed3.ctex"
+path="res://.godot/imported/Blue.png-6944c72116392a809d694d0400c465b2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Background/Blue.png"
-dest_files=["res://.godot/imported/Blue.png-b42c477dd46d892958ad932a16f63ed3.ctex"]
+source_file="res://Assets/Sprites/Background/Blue.png"
+dest_files=["res://.godot/imported/Blue.png-6944c72116392a809d694d0400c465b2.ctex"]
 
 [params]
 

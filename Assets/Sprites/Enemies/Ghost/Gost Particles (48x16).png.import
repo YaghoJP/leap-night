@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bu1rvja23qvxn"
-path="res://.godot/imported/Gost Particles (48x16).png-0975f80d011363733315bea27a47b33b.ctex"
+path="res://.godot/imported/Gost Particles (48x16).png-3ddc4f6e30f145f7a32ceaa285e5b1db.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://LeapNight Assets/Sprites/Enemies/Ghost/Gost Particles (48x16).png"
-dest_files=["res://.godot/imported/Gost Particles (48x16).png-0975f80d011363733315bea27a47b33b.ctex"]
+source_file="res://Assets/Sprites/Enemies/Ghost/Gost Particles (48x16).png"
+dest_files=["res://.godot/imported/Gost Particles (48x16).png-3ddc4f6e30f145f7a32ceaa285e5b1db.ctex"]
 
 [params]
 

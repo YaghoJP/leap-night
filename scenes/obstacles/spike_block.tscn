@@ -1,0 +1,26 @@
+[gd_scene load_steps=5 format=3 uid="uid://dmqi6y7hj86f6"]
+
+[ext_resource type="Script" uid="uid://dfdhpg1eeym2j" path="res://scenes/obstacles/spike_block.gd" id="1_68omk"]
+[ext_resource type="Texture2D" uid="uid://b1wjmxwdgvywl" path="res://Assets/Sprites/Traps/Rock Head/Idle.png" id="1_s23xk"]
+[ext_resource type="PackedScene" uid="uid://hi04oac01viv" path="res://scenes/obstacles/spikes.tscn" id="2_68omk"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qsfo8"]
+size = Vector2(32, 32)
+
+[node name="SpikeBlock" type="StaticBody2D"]
+script = ExtResource("1_68omk")
+
+[node name="Visuals" type="Node2D" parent="."]
+
+[node name="Sprite2D" type="Sprite2D" parent="Visuals"]
+texture = ExtResource("1_s23xk")
+
+[node name="Spikes" parent="Visuals" instance=ExtResource("2_68omk")]
+position = Vector2(-7, -16)
+
+[node name="Spikes2" parent="Visuals" instance=ExtResource("2_68omk")]
+position = Vector2(8, -16)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_qsfo8")
+debug_color = Color(0.847659, 0.000947983, 0.905519, 0.42)

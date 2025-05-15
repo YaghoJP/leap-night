@@ -76,3 +76,8 @@ func handle_movement() ->void:
 	if is_on_floor():
 		anim_sprite.play("run")
 		jumps_left = max_jumps
+		
+func player_dead() -> void:
+	can_move = false
+	velocity = Vector2.ZERO
+	anim_sprite.play("dead")

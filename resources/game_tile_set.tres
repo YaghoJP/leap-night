@@ -164,5 +164,5 @@ texture = ExtResource("1_nxeyg")
 17:2/0/physics_layer_0/polygon_0/one_way = true
 
 [resource]
-physics_layer_0/collision_layer = 1
+physics_layer_0/collision_layer = 4
 sources/0 = SubResource("TileSetAtlasSource_0sr1o")

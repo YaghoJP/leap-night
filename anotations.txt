@@ -12,3 +12,6 @@ SO -> Linux Ubunto
 [001] - "Create Player"
 - The player and his animations were created,
   but his code has not yet been created.
+
+[002] - "Move Player"
+- The movement of player were created.

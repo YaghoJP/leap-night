@@ -11,3 +11,68 @@ class_name Player
 @export_category("Objects")
 @export var anim_sprite: AnimatedSprite2D
 @export var ray_cast: RayCast2D
+
+var jumps_left: int
+var move_direction: int = 1
+var can_move: bool = true
+
+func _ready() -> void:
+	jumps_left = max_jumps
+	
+func _physics_process(delta: float) -> void:
+	
+	if not can_move:
+		return
+		
+	handle_movement()
+	handle_gravity(delta)
+	handle_wall_collision()
+	handle_jump_input()
+	
+	move_and_slide()
+
+func handle_jump_input() -> void:
+	if not Input.is_action_just_pressed("tap"):
+		return
+	
+	if ray_cast.is_colliding():
+		change_direction()
+			
+	jump()
+	
+func jump() -> void:
+	if jumps_left <= 0:
+		return
+	
+	velocity.y = -jump_force
+	jumps_left -= 1
+	
+	if jumps_left <= 0:
+		anim_sprite.play("double_jump")
+	else:
+		anim_sprite.play("jump")
+	
+func handle_gravity(delta: float) -> void:
+	if not is_on_floor():
+		velocity.y += gravity * delta
+		
+func handle_wall_collision() -> void:
+	if not ray_cast.is_colliding():
+		return
+		
+	velocity.y = 50
+	jumps_left = max_jumps
+	anim_sprite.play("fall")
+	
+	if is_on_floor():
+		change_direction()
+		
+func change_direction() -> void:
+	move_direction *= -1
+	scale.x *= -1
+	
+func handle_movement() ->void:
+	velocity.x = move_direction * max_speed
+	if is_on_floor():
+		anim_sprite.play("run")
+		jumps_left = max_jumps

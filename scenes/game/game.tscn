@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=4 uid="uid://c86cxiw2bhuvq"]
+[gd_scene load_steps=9 format=4 uid="uid://c86cxiw2bhuvq"]
 
 [ext_resource type="Script" uid="uid://bqfp67e85l75c" path="res://scenes/game/game.gd" id="1_5i0tg"]
 [ext_resource type="Shader" uid="uid://txvda7gyqv33" path="res://scenes/game/bg.gdshader" id="1_kelw5"]
@@ -6,6 +6,7 @@
 [ext_resource type="TileSet" uid="uid://cfjf87rsiqpy1" path="res://resources/game_tile_set.tres" id="2_7h61r"]
 [ext_resource type="Texture2D" uid="uid://d0v7xkv3g2f8e" path="res://Assets/Sprites/Background/Gray.png" id="2_lfrn8"]
 [ext_resource type="PackedScene" uid="uid://dmqi6y7hj86f6" path="res://scenes/obstacles/spike_block.tscn" id="5_lfrn8"]
+[ext_resource type="PackedScene" uid="uid://c1rbnwycy08rx" path="res://scenes/fruits/banana.tscn" id="7_bdhmt"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_5i0tg"]
 shader = ExtResource("1_kelw5")
@@ -49,3 +50,9 @@ scale = Vector2(1.5, 1.5)
 [node name="SpikeBlock2" parent="Floor_2" instance=ExtResource("5_lfrn8")]
 position = Vector2(232, 185)
 scale = Vector2(1.5, 1.5)
+
+[node name="Banana" parent="Floor_2" instance=ExtResource("7_bdhmt")]
+position = Vector2(42, 246)
+
+[node name="Banana2" parent="Floor_2" instance=ExtResource("7_bdhmt")]
+position = Vector2(231, 246)

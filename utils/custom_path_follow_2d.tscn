@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://dayeyddvlb8ef"]
+
+[ext_resource type="Script" uid="uid://2q7knchf8hqk" path="res://utils/custom_path_follow_2d.gd" id="1_drr4y"]
+
+[node name="CustomPathFollow2D" type="PathFollow2D"]
+loop = false
+script = ExtResource("1_drr4y")

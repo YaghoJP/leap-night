@@ -1,0 +1,60 @@
+[gd_scene load_steps=5 format=3 uid="uid://5pk7ekpe4x3p"]
+
+[ext_resource type="Texture2D" uid="uid://vdvacswb685p" path="res://Assets/Sprites/Traps/Spiked Ball/Chain.png" id="1_hsnqb"]
+[ext_resource type="Script" uid="uid://dy4lvc8v5ncig" path="res://traps/spike_ball.gd" id="1_xxciv"]
+[ext_resource type="Texture2D" uid="uid://bvuqft53ulhb0" path="res://Assets/Sprites/Traps/Spiked Ball/Spiked Ball.png" id="2_xxciv"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_mwmx0"]
+
+[node name="SpikeBall" type="Area2D"]
+collision_layer = 0
+script = ExtResource("1_xxciv")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_hsnqb")
+
+[node name="Sprite2D2" type="Sprite2D" parent="."]
+position = Vector2(0, 8)
+texture = ExtResource("1_hsnqb")
+
+[node name="Sprite2D3" type="Sprite2D" parent="."]
+position = Vector2(0, 16)
+texture = ExtResource("1_hsnqb")
+
+[node name="Sprite2D4" type="Sprite2D" parent="."]
+position = Vector2(0, 24)
+texture = ExtResource("1_hsnqb")
+
+[node name="Sprite2D5" type="Sprite2D" parent="."]
+position = Vector2(0, 32)
+texture = ExtResource("1_hsnqb")
+
+[node name="Sprite2D6" type="Sprite2D" parent="."]
+position = Vector2(0, 40)
+texture = ExtResource("1_hsnqb")
+
+[node name="Sprite2D7" type="Sprite2D" parent="."]
+position = Vector2(0, 48)
+texture = ExtResource("1_hsnqb")
+
+[node name="Sprite2D8" type="Sprite2D" parent="."]
+position = Vector2(0, 56)
+texture = ExtResource("1_hsnqb")
+
+[node name="Sprite2D9" type="Sprite2D" parent="."]
+position = Vector2(0, 64)
+texture = ExtResource("1_hsnqb")
+
+[node name="Sprite2D10" type="Sprite2D" parent="."]
+position = Vector2(0, 72)
+texture = ExtResource("1_hsnqb")
+
+[node name="Sprite2D11" type="Sprite2D" parent="."]
+position = Vector2(0, 90)
+texture = ExtResource("2_xxciv")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 91)
+shape = SubResource("CircleShape2D_mwmx0")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]

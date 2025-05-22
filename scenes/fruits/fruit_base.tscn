@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://qgjkjf38cugl" path="res://scenes/fruits/fruit_base.gd" id="1_iagoq"]
 
 [node name="FruitBase" type="Area2D" node_paths=PackedStringArray("anim_sprite")]
+scale = Vector2(1.5, 1.5)
 script = ExtResource("1_iagoq")
 anim_sprite = NodePath("AnimatedSprite2D")
 

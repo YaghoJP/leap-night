@@ -1,38 +1,9 @@
 SO -> Linux Ubunto
 
-[000] - "Create Project"
-- It was defined the project settings:
+- project settings:
 	screen:
 		viewport_width  = 270
 		viewport_height = 480
 		
 		viewport_override_width  = 480
 		viewport_override_heigth = 854
-
-[001] - "Create Player"
-- The player and his animations were created,
-  but his code has not yet been created.
-
-[002] - "Move Player"
-- The movement of player were created.
-
-[003] - "Create Level"
-- Foi criado o level, explicado o funcionamento do TileMapaLayer.
-  - Basicamente até o momento ele está sendo utilizado como um TileMap comum mesmo.
-
-
-[004] - "Create First Obstacle"
-
-- Foi criado o primeiro obstáculo, o Spike e a BoxSpike. Foi introduzido um EventManager que é basicamente um autoload que controlará os eventos.
-  
-  * Detalhes: 
-	- Na aula foi explicado o funcionamento do Tween com o set EASYOUT que é básicamente uma curva da velocidade e suavização da animação feita pelo Tween.
-
-	- Foi explicado também sobre as Layers de colisão. Sendo a Mask e a Layer
-		- Mask: Com quem o objeto irá colidir.
-		- Layer: Com quem o objeto é colidido.
-
-
-[005] - "Add Score with Fruits"
-
-	

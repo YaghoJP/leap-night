@@ -9,6 +9,7 @@ class_name Player
 @export var gravity: float = 1600
 
 @export_category("Objects")
+@export var player_start_pos: Marker2D
 @export var anim_sprite: AnimatedSprite2D
 @export var ray_cast: RayCast2D
 
@@ -81,3 +82,15 @@ func player_dead() -> void:
 	can_move = false
 	velocity = Vector2.ZERO
 	anim_sprite.play("dead")
+
+
+func _on_animated_sprite_2d_animation_finished() -> void:
+	if anim_sprite.animation == "dead":
+		self.global_position = player_start_pos.global_position
+		anim_sprite.play("respawn")
+		return
+		
+	if anim_sprite.animation == "respawn":
+		anim_sprite.play("run")
+		can_move = true
+		return

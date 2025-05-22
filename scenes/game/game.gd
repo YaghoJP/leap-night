@@ -3,6 +3,7 @@ class_name Game
 
 @export_category("Objects")
 @export var player: Player
+@export var player_start_position: Marker2D
 
 var points: int = 0
 

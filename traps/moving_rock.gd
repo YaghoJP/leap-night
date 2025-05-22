@@ -10,7 +10,6 @@ class_name MovingRock
 
 var start_position: Vector2
 
-
 func _ready() -> void:
 	start_position = global_position
 

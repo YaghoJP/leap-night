@@ -60,7 +60,7 @@ func handle_gravity(delta: float) -> void:
 func handle_wall_collision() -> void:
 	if not ray_cast.is_colliding():
 		return
-		
+	
 	velocity.y = 50
 	jumps_left = max_jumps
 	anim_sprite.play("fall")
@@ -81,6 +81,10 @@ func handle_movement() ->void:
 func player_dead() -> void:
 	can_move = false
 	velocity = Vector2.ZERO
+	
+	var tween: Tween = create_tween().set_ease(Tween.EASE_IN)
+	tween.tween_property(self, "global_position", player_start_pos.position  , 1)
+	
 	anim_sprite.play("dead")
 
 

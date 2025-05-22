@@ -120,7 +120,7 @@ animations = [{
 radius = 3.0
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_oilqs"]
-size = Vector2(15, 8)
+size = Vector2(29, 8)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_3kb1d"]
 size = Vector2(28, 7)
@@ -138,7 +138,7 @@ autoplay = "fly"
 shape = SubResource("CircleShape2D_oilqs")
 
 [node name="CollisionShape2D" parent="TopArea" index="0"]
-position = Vector2(2.5, -7)
+position = Vector2(-0.5, -8)
 shape = SubResource("RectangleShape2D_oilqs")
 debug_color = Color(0.665019, 0.31459, 1, 0.42)
 

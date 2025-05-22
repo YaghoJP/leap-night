@@ -56,11 +56,7 @@ texture = ExtResource("1_nxeyg")
 14:2/0 = 0
 15:2/0 = 0
 18:2/0 = 0
-18:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -3.41732, -8, -3.41732)
-18:2/0/physics_layer_0/polygon_0/one_way = true
 19:2/0 = 0
-19:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -3.23746, -8, -3.23746)
-19:2/0/physics_layer_0/polygon_0/one_way = true
 0:4/0 = 0
 1:4/0 = 0
 2:4/0 = 0
@@ -172,8 +168,6 @@ texture = ExtResource("1_nxeyg")
 19:10/0 = 0
 20:10/0 = 0
 17:2/0 = 0
-17:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-8, -8, 8, -8, 8, -3.59717, 8, -3.59717, -8, -3.77703)
-17:2/0/physics_layer_0/polygon_0/one_way = true
 
 [resource]
 physics_layer_0/collision_layer = 4

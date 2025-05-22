@@ -1,7 +1,7 @@
 [gd_scene load_steps=23 format=3 uid="uid://cepo7vkfckc16"]
 
-[ext_resource type="PackedScene" uid="uid://dl7t8bg1gc3xw" path="res://enemy/enemy_base.tscn" id="1_rb5sg"]
-[ext_resource type="Script" uid="uid://colgqlepaqxvy" path="res://enemy/blue_bird.gd" id="2_kanbn"]
+[ext_resource type="PackedScene" uid="uid://dl7t8bg1gc3xw" path="res://scenes/enemy/enemy_base.tscn" id="1_rb5sg"]
+[ext_resource type="Script" uid="uid://colgqlepaqxvy" path="res://scenes/enemy/blue_bird.gd" id="2_kanbn"]
 [ext_resource type="Texture2D" uid="uid://b2mplua5sted6" path="res://Assets/Sprites/Enemies/BlueBird/Flying (32x32).png" id="3_oilqs"]
 [ext_resource type="Texture2D" uid="uid://b4jml8ljm5lw8" path="res://Assets/Sprites/Enemies/BlueBird/Hit (32x32).png" id="4_3kb1d"]
 

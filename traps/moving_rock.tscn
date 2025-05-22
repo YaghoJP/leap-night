@@ -1,0 +1,89 @@
+[gd_scene load_steps=12 format=3 uid="uid://s3i1ul1fybsv"]
+
+[ext_resource type="Script" uid="uid://cuvfwhtdgcl8d" path="res://traps/moving_rock.gd" id="1_ka8ha"]
+[ext_resource type="Texture2D" uid="uid://bdrqd5mopxeup" path="res://Assets/Sprites/Traps/Rock Head/Bottom Hit (42x42).png" id="1_yfcio"]
+[ext_resource type="Texture2D" uid="uid://b1wjmxwdgvywl" path="res://Assets/Sprites/Traps/Rock Head/Idle.png" id="2_ka8ha"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_07rq2"]
+atlas = ExtResource("1_yfcio")
+region = Rect2(0, 0, 42, 42)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tuvqy"]
+atlas = ExtResource("1_yfcio")
+region = Rect2(42, 0, 42, 42)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s3ubw"]
+atlas = ExtResource("1_yfcio")
+region = Rect2(84, 0, 42, 42)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6t6gh"]
+atlas = ExtResource("1_yfcio")
+region = Rect2(126, 0, 42, 42)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ff1ab"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_07rq2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tuvqy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s3ubw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6t6gh")
+}],
+"loop": false,
+"name": &"bottom_hit",
+"speed": 20.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_ka8ha")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yfcio"]
+size = Vector2(32, 32)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ka8ha"]
+size = Vector2(32, 48)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_07rq2"]
+size = Vector2(32, 2)
+
+[node name="MovingRock" type="StaticBody2D" node_paths=PackedStringArray("anim_sprite")]
+collision_layer = 16
+collision_mask = 0
+script = ExtResource("1_ka8ha")
+anim_sprite = NodePath("AnimatedSprite2D")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_ff1ab")
+animation = &"idle"
+autoplay = "idle"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_yfcio")
+
+[node name="ActionArea" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="ActionArea"]
+position = Vector2(0, 40)
+shape = SubResource("RectangleShape2D_ka8ha")
+debug_color = Color(0, 0.643495, 0.298961, 0.42)
+
+[node name="KillArea" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="KillArea"]
+position = Vector2(0, 17)
+shape = SubResource("RectangleShape2D_07rq2")
+debug_color = Color(0.938702, 1.2899e-05, 0.622558, 0.42)
+
+[connection signal="body_entered" from="ActionArea" to="." method="_on_action_area_body_entered"]
+[connection signal="body_entered" from="KillArea" to="." method="_on_kill_area_body_entered"]

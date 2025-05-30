@@ -216,37 +216,49 @@ animations = [{
 radius = 3.16228
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_eyv2k"]
-size = Vector2(41, 6)
+size = Vector2(25, 6)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_0c1af"]
-size = Vector2(49, 13)
+size = Vector2(35, 13)
 
-[node name="EnemyRino" instance=ExtResource("1_1du2n")]
+[node name="EnemyRino" node_paths=PackedStringArray("ray_cast_player", "anim_sprite", "ray_cast_wall") instance=ExtResource("1_1du2n")]
 scale = Vector2(-1, 1)
 script = ExtResource("2_mn0mp")
+ray_cast_player = NodePath("RayCastPlayer")
+anim_sprite = NodePath("AnimatedSprite2D")
+ray_cast_wall = NodePath("RayCastWall")
+ray_length = 160
 
 [node name="AnimatedSprite2D" parent="." index="0"]
 sprite_frames = SubResource("SpriteFrames_ptw5l")
-animation = &"hit"
+animation = &"idle"
 autoplay = "idle"
-frame = 4
-frame_progress = 1.0
 
 [node name="CollisionShape2D" parent="." index="1"]
 shape = SubResource("CircleShape2D_w325u")
 
+[node name="TopArea" parent="." index="2"]
+collision_layer = 0
+
 [node name="CollisionShape2D" parent="TopArea" index="0"]
-position = Vector2(-0.5, -7)
+position = Vector2(-2.5, -4)
 shape = SubResource("RectangleShape2D_eyv2k")
 debug_color = Color(3.1285e-06, 0.637002, 0.39772, 0.42)
 
+[node name="BottomArea" parent="." index="3"]
+collision_layer = 0
+
 [node name="CollisionShape2D" parent="BottomArea" index="0"]
-position = Vector2(0.5, 10.5)
+position = Vector2(3, 10)
 shape = SubResource("RectangleShape2D_0c1af")
 
 [node name="RayCastWall" type="RayCast2D" parent="." index="4"]
-target_position = Vector2(-25, 0)
+target_position = Vector2(-22, 0)
 collision_mask = 4
 
 [node name="RayCastPlayer" type="RayCast2D" parent="." index="5"]
 target_position = Vector2(-165, 0)
+
+[connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
+[connection signal="body_entered" from="TopArea" to="." method="_on_top_area_body_entered"]
+[connection signal="body_entered" from="BottomArea" to="." method="_on_bottom_area_body_entered"]

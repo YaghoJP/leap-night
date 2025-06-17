@@ -16,6 +16,7 @@ func _on_top_area_body_entered(body: Node2D) -> void:
 	
 	defeated = true
 	anim_sprite.play("hit")
+	SoundManager.play_hit()
 	path.can_move = false
 	body.velocity.y = -250
 
@@ -27,6 +28,7 @@ func _on_bottom_area_body_entered(body: Node2D) -> void:
 		return
 	
 	EventManager.on_player_dead.emit()
+	SoundManager.play_hit()
 
 func _on_animated_sprite_2d_animation_finished() -> void:
 	if anim_sprite.animation == "hit":

@@ -11,6 +11,10 @@ func _ready() -> void:
 	EventManager.on_player_dead.connect(_on_player_dead)
 	EventManager.on_fruit_collected.connect(_on_fruit_collected)
 	EventManager.on_checkpoint_rached.connect(_on_checkpoint_rached)
+	EventManager.on_game_won.connect(_on_game_won)
+	
+func _on_game_won()->void:
+	print('won')
 	
 func _on_player_dead() -> void:
 	player.player_dead()

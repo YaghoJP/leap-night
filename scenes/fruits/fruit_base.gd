@@ -14,6 +14,7 @@ func _on_body_entered(body: Node2D) -> void:
 		return
 	
 	collected = true
+	SoundManager.play_fruit()
 	anim_sprite.play("collect")
 	EventManager.on_fruit_collected.emit()
 

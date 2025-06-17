@@ -46,13 +46,14 @@ func rotateSprite() -> void:
 func _on_top_area_body_entered(body: Node2D) -> void:
 	if body is not Player: return
 	defeated = true
-	
+	SoundManager.play_hit()
 	anim_sprite.play("hit")
 
 func _on_bottom_area_body_entered(body: Node2D) -> void:
 	if defeated:
 		return
 
+	SoundManager.play_hit()
 	EventManager.on_player_dead.emit()
 
 func _on_animated_sprite_2d_animation_finished() -> void:

@@ -1,0 +1,31 @@
+[gd_scene load_steps=3 format=3 uid="uid://cmkaj8gnysa6b"]
+
+[ext_resource type="Script" uid="uid://bnlhcuj8degoo" path="res://autoloads/sound_manager.gd" id="1_4udv5"]
+[ext_resource type="AudioStream" uid="uid://cmafa0x8wl1m8" path="res://Assets/Sound/flat-8-bit-gaming-music-instrumental-211547.mp3" id="2_xy5rq"]
+
+[node name="SoundManager" type="Node"]
+script = ExtResource("1_4udv5")
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_xy5rq")
+volume_db = -25.0
+autoplay = true
+bus = &"Music"
+
+[node name="SFXStreams" type="Node" parent="."]
+
+[node name="SFX_1" type="AudioStreamPlayer" parent="SFXStreams"]
+volume_db = -20.0
+bus = &"SFX"
+
+[node name="SFX_2" type="AudioStreamPlayer" parent="SFXStreams"]
+volume_db = -20.0
+bus = &"SFX"
+
+[node name="SFX_3" type="AudioStreamPlayer" parent="SFXStreams"]
+volume_db = -20.0
+bus = &"SFX"
+
+[node name="SFX_4" type="AudioStreamPlayer" parent="SFXStreams"]
+volume_db = -20.0
+bus = &"SFX"

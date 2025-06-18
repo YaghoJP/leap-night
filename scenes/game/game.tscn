@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=4 uid="uid://c86cxiw2bhuvq"]
+[gd_scene load_steps=34 format=4 uid="uid://c86cxiw2bhuvq"]
 
 [ext_resource type="Script" uid="uid://bqfp67e85l75c" path="res://scenes/game/game.gd" id="1_5i0tg"]
 [ext_resource type="Shader" uid="uid://txvda7gyqv33" path="res://scenes/game/bg.gdshader" id="1_kelw5"]
@@ -23,6 +23,8 @@
 [ext_resource type="PackedScene" uid="uid://bef50q1dr56or" path="res://scenes/enemy/enemy_rino.tscn" id="21_gc57s"]
 [ext_resource type="PackedScene" uid="uid://bc7fjkbf5vmfh" path="res://scenes/enemy/enemy_pig.tscn" id="22_8b66f"]
 [ext_resource type="PackedScene" uid="uid://cneo5xtkrbi7a" path="res://utils/end_check_point.tscn" id="23_3jaai"]
+[ext_resource type="FontFile" uid="uid://daihrgaf846ud" path="res://Assets/Fonts/upheavtt.ttf" id="24_1iff4"]
+[ext_resource type="Texture2D" uid="uid://bn7geagmtnstt" path="res://Assets/Sprites/Items/Fruits/Fruit.png" id="25_4vuph"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_5i0tg"]
 shader = ExtResource("1_kelw5")
@@ -39,10 +41,26 @@ size = Vector2(240, 5)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_pg2xm"]
 size = Vector2(80, 5)
 
-[node name="Game" type="Node2D" node_paths=PackedStringArray("player", "player_start_position")]
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_3jaai"]
+bg_color = Color(2.40654e-08, 0.257357, 0.401796, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_4vuph"]
+font = ExtResource("24_1iff4")
+font_size = 40
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_1iff4"]
+bg_color = Color(1, 1, 1, 1)
+
+[sub_resource type="LabelSettings" id="LabelSettings_wdnak"]
+font = ExtResource("24_1iff4")
+font_size = 36
+
+[node name="Game" type="Node2D" node_paths=PackedStringArray("player", "player_start_position", "label_score", "panel_won")]
 script = ExtResource("1_5i0tg")
 player = NodePath("Player")
 player_start_position = NodePath("PlayerStartPosition")
+label_score = NodePath("GameUI/TopBar/ScoreLabel")
+panel_won = NodePath("GameUI/GameWon")
 
 [node name="Control" type="Control" parent="."]
 layout_mode = 3
@@ -111,6 +129,7 @@ position = Vector2(-99, -28)
 position = Vector2(98, -28)
 
 [node name="Kiwi" parent="Floor_3" instance=ExtResource("9_2a8rs")]
+position = Vector2(-1, 0)
 
 [node name="Floor_4" type="Node2D" parent="."]
 position = Vector2(139, -139)
@@ -410,3 +429,84 @@ position = Vector2(128, -2160)
 
 [node name="EndCheckPoint" parent="Floor_11" instance=ExtResource("23_3jaai")]
 position = Vector2(8, 80)
+
+[node name="GameUI" type="CanvasLayer" parent="."]
+
+[node name="GameWon" type="Panel" parent="GameUI"]
+visible = false
+custom_minimum_size = Vector2(200, 150)
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -100.0
+offset_top = -75.0
+offset_right = 100.0
+offset_bottom = 75.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_3jaai")
+
+[node name="Title" type="Label" parent="GameUI/GameWon"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -77.5
+offset_top = -60.0
+offset_right = 77.5
+offset_bottom = -27.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "YOU WIN!"
+label_settings = SubResource("LabelSettings_4vuph")
+
+[node name="PlayButton" type="Button" parent="GameUI/GameWon"]
+custom_minimum_size = Vector2(150, 40)
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -75.0
+offset_top = -57.0
+offset_right = 75.0
+offset_bottom = -7.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("24_1iff4")
+theme_override_font_sizes/font_size = 48
+theme_override_styles/normal = SubResource("StyleBoxFlat_1iff4")
+text = "Play"
+
+[node name="TopBar" type="Control" parent="GameUI"]
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 3
+anchors_preset = 10
+anchor_right = 1.0
+grow_horizontal = 2
+
+[node name="ScoreLabel" type="Label" parent="GameUI/TopBar"]
+layout_mode = 0
+offset_left = 38.0
+offset_top = 4.0
+offset_right = 78.0
+offset_bottom = 37.0
+text = "0"
+label_settings = SubResource("LabelSettings_wdnak")
+
+[node name="TextureRect" type="TextureRect" parent="GameUI/TopBar"]
+custom_minimum_size = Vector2(48, 48)
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+texture = ExtResource("25_4vuph")
+expand_mode = 1
+stretch_mode = 5
+
+[connection signal="pressed" from="GameUI/GameWon/PlayButton" to="." method="_on_play_button_pressed"]

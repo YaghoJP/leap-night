@@ -9,7 +9,7 @@ const JUMPING_SFX = preload("res://Assets/Sound/jumping sfx.mp3")
 func play_jump() -> void:
 	play_audio(JUMPING_SFX)
 
-func play_hiy() -> void:
+func play_hit() -> void:
 	play_audio(HIT)
 
 func play_fruit() -> void:

@@ -8,24 +8,24 @@ script = ExtResource("1_4udv5")
 
 [node name="Music" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("2_xy5rq")
-volume_db = -25.0
+volume_db = -30.0
 autoplay = true
 bus = &"Music"
 
 [node name="SFXStreams" type="Node" parent="."]
 
 [node name="SFX_1" type="AudioStreamPlayer" parent="SFXStreams"]
-volume_db = -20.0
+volume_db = -25.0
 bus = &"SFX"
 
 [node name="SFX_2" type="AudioStreamPlayer" parent="SFXStreams"]
-volume_db = -20.0
+volume_db = -25.0
 bus = &"SFX"
 
 [node name="SFX_3" type="AudioStreamPlayer" parent="SFXStreams"]
-volume_db = -20.0
+volume_db = -25.0
 bus = &"SFX"
 
 [node name="SFX_4" type="AudioStreamPlayer" parent="SFXStreams"]
-volume_db = -20.0
+volume_db = -25.0
 bus = &"SFX"
